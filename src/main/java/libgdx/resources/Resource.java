@@ -50,8 +50,7 @@ public enum Resource implements Res {
     labels_uk("labels/labels_uk", I18NBundle.class),
     labels_vi("labels/labels_vi", I18NBundle.class),
     labels_zh("labels/labels_zh", I18NBundle.class),
-    sound_fail_game_over("sounds/sound_fail_game_over.mp3", Sound.class),
-    sound_success_game_over("sounds/sound_success_game_over.mp3", Sound.class),;
+    ;
     // @formatter:on
 
     private String path;
